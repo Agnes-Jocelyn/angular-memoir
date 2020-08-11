@@ -5,7 +5,7 @@
 </div>
 
 <div class="container">
-  <mat-card class="card" *ngFor="let post of posts">
+  <mat-card class="card post-card" *ngFor="let post of posts">
     <mat-card-header>
       <img
         src="{{ post.profilePic }}"
@@ -15,11 +15,13 @@
       />
       <mat-card-title>{{ post.username }}</mat-card-title>
     </mat-card-header>
-    <img mat-card-image src="" alt="" />
+
     <mat-card-content>
       <p>
         {{ post.post }}
       </p>
+      <img mat-card-image src="{{ post.postImg }}" alt="" class="post-image" />
     </mat-card-content>
   </mat-card>
 </div>
+

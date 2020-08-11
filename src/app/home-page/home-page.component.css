@@ -4,3 +4,21 @@
     height: 100px;
     color: rgb(66, 66, 66);
 }
+
+.post-card{
+    margin: 40px 50px;
+    background-color:#e1d2e9;
+    height: auto;
+    color: rgb(66, 66, 66);
+}
+
+.post-card p{
+    padding-top: 15px;
+}
+
+.post-image{
+    width:100%;
+    height: auto;
+    object-fit: cover;
+    padding-left: 16px;
+}

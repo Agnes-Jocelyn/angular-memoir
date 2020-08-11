@@ -1,0 +1,18 @@
+.profile-bg{
+    background-color:#d7b5eb;
+    height: 400px;
+    width: 100%;
+}
+
+h2{
+    text-align: center;
+}
+
+.profile-img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 15%;
+        padding-top: 10%;
+        height: 15%;
+}
